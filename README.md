@@ -43,6 +43,8 @@ self-hosted AI chatbot architecture, confidence-based AI reply system, prompt in
 - [Design Principles](#design-principles)
 - [Dual-AI Reasoning Model](#dual-ai-reasoning-model)
 - [What Makes This Different From a Typical Chatbot](#what-makes-this-different-from-a-typical-chatbot)
+- [Typical Chatbot vs. This System](#️-typical-chatbot-vs-this-system)
+- [White-Label Deployment Model](#-white-label-deployment-model)
 - [Tech Stack](#tech-stack)
 - [Reliability Philosophy](#reliability-philosophy)
 - [FAQ](#faq)
@@ -98,6 +100,30 @@ The system separates **talking to the customer** from **judging the conversation
 - 🔁 **Fallback on every AI call** — no single point of AI failure
 - 🛡️ **Built-in safety screening** — inbound and outbound content is checked before it reaches the customer or the model
 - 🧯 **Dedicated failure-alerting path** — delivery failures are escalated immediately, independent of normal analytics
+
+## ⚖️ Typical Chatbot vs. This System
+
+| | Typical "AI Chatbot" Demo | This System |
+|---|---|---|
+| **Message handling** | One message in, one reply out | Bursty messages merged into one coherent context |
+| **Input types** | Text only | Text, voice notes, and images — all interpreted |
+| **AI provider failure** | Bot goes silent | Automatic fallback — every AI step has a backup model |
+| **Failed delivery** | Sits in a log, unnoticed | Treated as highest-priority event — escalated immediately |
+| **Reusability across clients** | Rebuilt per client | Same core logic — only knowledge source & credentials change |
+| **Response speed vs. analytics** | Often coupled — analytics can delay the reply | Reply sent first; lead-scoring and analytics run independently after |
+
+## 🏢 White-Label Deployment Model
+
+This system was engineered as a **business-agnostic core** — the same underlying logic can serve any business vertical by changing only a small set of per-client inputs.
+
+| Changes Per Client | Stays Identical |
+|---|---|
+| Knowledge source (business info, FAQs, pricing) | Core reasoning & bundling logic |
+| WhatsApp Cloud API credentials | Dual-AI fallback architecture |
+| Branding / tone in replies | Message-bundling & multi-modal pipeline |
+| Admin alert destination | Reliability & failure-escalation layer |
+
+**One engineered system → deployable across industries** without redesigning the underlying architecture for each client.
 
 ## Tech Stack
 
