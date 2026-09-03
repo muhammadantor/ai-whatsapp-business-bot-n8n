@@ -6,19 +6,36 @@ production n8n automation case study, AI automation agency Bangladesh, AutomateI
 self-hosted AI chatbot architecture, confidence-based AI reply system, prompt injection protected chatbot.
 -->
 
-# AI-Powered WhatsApp Business Bot — n8n Automation Case Study
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=AI%20WhatsApp%20Business%20Bot&fontSize=38&fontColor=fff&animation=twinkling&fontAlignY=35&desc=n8n%20Automation%20Case%20Study%20%7C%20Dual-AI%20%7C%20Multi-Modal%20%7C%20Self-Healing&descAlignY=57&descAlign=50"/>
+
+![Automation](https://img.shields.io/badge/Automation-n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![AI Model](https://img.shields.io/badge/Primary%20AI-Gemini%202.5%20Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Fallback AI](https://img.shields.io/badge/Fallback%20AI-Groq%20Llama-F55036?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-WhatsApp%20Cloud%20API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)
+![Maintained by](https://img.shields.io/badge/Maintained%20by-AutomateIQ%20Labs-black?style=for-the-badge)
+
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1000&color=25D366&center=true&vCenter=true&random=false&width=750&lines=Production+WhatsApp+AI+Bot+%7C+n8n+Case+Study+%F0%9F%A4%96;Dual-AI+Fallback+Core+%7C+Gemini+%2B+Groq+%E2%9A%99%EF%B8%8F;Multi-Modal+%7C+Text+%2B+Voice+%2B+Image+%F0%9F%8E%99%EF%B8%8F%F0%9F%96%BC%EF%B8%8F;Self-Healing+Reliability+Layer+%7C+Zero+Silent+Failures)](https://git.io/typing-svg)
+
+<br/>
 
 **A production WhatsApp Business automation system with a dual-AI fallback core, multi-modal understanding (text, voice, image), and a self-healing reliability layer — built and deployed by AutomateIQ Labs.**
 
-![Automation](https://img.shields.io/badge/Automation-n8n-EA4B71?style=flat-square) ![AI Model](https://img.shields.io/badge/Primary%20AI-Gemini%202.5%20Flash-4285F4?style=flat-square) ![Fallback AI](https://img.shields.io/badge/Fallback%20AI-Groq%20Llama-F55036?style=flat-square) ![Platform](https://img.shields.io/badge/Platform-WhatsApp%20Cloud%20API-25D366?style=flat-square) ![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=flat-square) ![Maintained by](https://img.shields.io/badge/Maintained%20by-AutomateIQ%20Labs-black?style=flat-square)
+<br/>
 
 > 📌 **This is a conceptual case-study repository, not a rebuild guide.** It documents the design thinking, architectural principles, and problem-solving decisions behind a live production system. Exact node wiring, prompts, and configuration are intentionally not shown. See [License & Usage](#license--usage) below.
+
+</div>
 
 **Core keywords:** AI WhatsApp bot, n8n workflow automation, WhatsApp Cloud API chatbot, Gemini AI agent, Groq Llama fallback, conversational AI for business, WhatsApp automation Bangladesh, multi-modal AI chatbot, voice and image AI bot, AI automation agency Bangladesh.
 
 ---
 
-## Table of Contents
+## 📌 Table of Contents
 
 - [Overview](#overview)
 - [The Problem It Solves](#the-problem-it-solves)
@@ -118,13 +135,23 @@ If you're a business or agency interested in a similar system built for you, rea
 
 ## Connect
 
+<div align="center">
+
 **Muhammad Antor** — AI Automation Engineer & Founder, AutomateIQ Labs 🇧🇩
 
-- LinkedIn: [linkedin.com/in/muhammad-antor](https://www.linkedin.com/in/muhammad-antor)
-- Facebook (AutomateIQ Labs): [facebook.com/automateiq.labs](https://www.facebook.com/automateiq.labs/)
-- GitHub: [github.com/muhammadantor](https://github.com/muhammadantor)
-- Email: [muhammadantor71@gmail.com](mailto:muhammadantor71@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/muhammad-antor)
+[![Facebook](https://img.shields.io/badge/AutomateIQ_Labs-Follow-1877F2?style=for-the-badge&logo=facebook)](https://www.facebook.com/automateiq.labs/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/muhammadantor)
+[![Email](https://img.shields.io/badge/Email-Hire_Me-EA4335?style=for-the-badge&logo=gmail)](mailto:muhammadantor71@gmail.com)
+
+</div>
 
 ---
 
-Documentation repository by AutomateIQ Labs — architecture and design decisions shared for portfolio purposes; the underlying implementation is proprietary and not licensed for reuse.
+<div align="center">
+
+*Documentation repository by AutomateIQ Labs — architecture and design decisions shared for portfolio purposes; the underlying implementation is proprietary and not licensed for reuse.*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+
+</div>
