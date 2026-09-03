@@ -51,7 +51,7 @@ This system was engineered specifically around those failure modes, not just the
 
 ## Conceptual Architecture
 
-![AI WhatsApp Business Bot — conceptual architecture overview](whatsapp-bot-architecture.png)
+![AI WhatsApp Business Bot — conceptual architecture overview](whatsapp_bot_architecture.png)
 
 This diagram shows the **conceptual flow only** — six logical stages, not the actual node graph. The production workflow is significantly more granular (tens of nodes across each stage, with branching, retries, and state management not represented here) — that level of detail is intentionally withheld; see [License & Usage](#license--usage).
 
